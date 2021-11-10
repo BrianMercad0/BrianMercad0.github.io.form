@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Validation Form.css">
+    <script type="text/javascript" src="Validation Form.js"></script>
+    <title>Form</title>
+
+    <script>
+        document.cookie="username=test";
+        document.cookie="password=test";
+    </script>
+
+</head>
+<body>
+
+<form name="registration" onsubmit="return validation();">
+<fieldset class="bruh">
+    <legend>Validation Form:</legend>
+    <label for="fname"></label>
+    <input class="Validation" type="text" id="fname" name="fname" placeholder="First Name"><br><br>
+    <label for="lname"></label>
+    <input class="Validation" type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+    <label for="email"></label>
+    <input class="Validation" type="texts" id="email" name="email" placeholder="Email"><br><br>
+    <label for="mnumber"></label>
+    <input class="Validation" type="number" id="mnumber" name="mnumber" placeholder="Phone Number"><br><br>
+    <input class="popcorn" type="submit" value="Submit">
+    
+   </fieldset>
+</form>
+
+</body>
+</html>
